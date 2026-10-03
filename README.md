@@ -20,7 +20,7 @@ The platform couples continuous **4th-Order Runge-Kutta (RK4) mechanistic ODE nu
   - Substrate consumption (Glucose) with maintenance and yield parameters ($Y_{X/S}, m_s$).
   - Toxic metabolite accumulation (Lactate) with cell-specific production rates ($q_{lac}$) and growth inhibition ($K_{I,lac}$).
   - Dynamic perfusion media exchange with sterile fresh feed replenishment and continuous harvest clearance.
-  - Empirical membrane fouling risk proxy ($0–100\%$) tracking cumulative biomass load, perfusion rate, and shear stress.
+  - Empirical membrane fouling risk proxy ($0–100\%$) tracking cumulative biomass load, perfusion rate and shear stress.
   - Strict physical non-negativity and mass balance constraints solved via RK4 ($\Delta t = 0.5\text{ h}$).
 
 - **Closed-Loop Adaptive Feedback Controller**:
